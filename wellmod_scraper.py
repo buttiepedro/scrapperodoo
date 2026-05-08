@@ -23,7 +23,7 @@ from bs4 import BeautifulSoup
 # CONFIGURACIÓN
 # ─────────────────────────────────────────────────────────────────────────────
 
-BASE_URL = "https://wellmod.odoo.com"
+BASE_URL = os.getenv("WELLMOD_BASE_URL", "https://wellmod.odoo.com").rstrip("/")
 OUTPUT_FILE = os.getenv("WELLMOD_OUTPUT_FILE", "wellmod_knowledge_base.json")
 DELAY = float(os.getenv("WELLMOD_REQUEST_DELAY", "1.5"))  # segundos entre requests
 
