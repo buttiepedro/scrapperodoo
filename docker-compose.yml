@@ -1,0 +1,11 @@
+services:
+  wellmod-api:
+    build: .
+    container_name: wellmod-api
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "${WELLMOD_API_PORT:-8080}:${WELLMOD_API_PORT:-8080}"
+    volumes:
+      - ./data:/app/data
