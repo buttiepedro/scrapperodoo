@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-14T12:43:07.129046",
+    "scraped_at": "2026-06-30T11:10:10.075372",
     "source": "https://wellmod.odoo.com",
     "version": "1.0"
   },
@@ -8,31 +8,30 @@
     "descripcion": "Brindar soluciones modulares, en tiempos record, fomentando la sustentabilidad y minimizando los desperdicios de la construcción.",
     "pilares": [
       {
+        "nombre": "SUSTENTABLE",
+        "descripcion": "Ahorro energético, conservación de suelos, tratamiento de aguas sanitarias, cubiertas verdes, materiales reciclables, domótica."
+      },
+      {
         "nombre": "MODULAR",
         "descripcion": "Se trata de estructuras metálicas que poseen 20m2 cubiertos de 6,20m de largo x 3,20m de ancho x 3m de alto y pudiendo adosar la cantidad de módulos y yuxtaponerlos de la manera que uno desee."
-      },
-      {
-        "nombre": "TRANSPORTABLE",
-        "descripcion": "Cada unidad puede ser trasladada desde la fábrica hacia el lugar de destino en camiones y/o grúas especiales, para luego realizar las tareas de montaje necesarias."
-      },
-      {
-        "nombre": "INMEDIATO",
-        "descripcion": "Se trata de proyectos fabricados entre 90 y 120 de construcción dependiendo la cantidad de m2, e instalados en tan solo unos pocos días para su rápida puesta en marcha."
       },
       {
         "nombre": "SIMPLE",
         "descripcion": "Al realizarse en una industria fabril con mano de obra especializada se minimizan los errores de ejecución, garantizando calidad en la fabricación y los materiales."
       },
       {
-        "nombre": "SUSTENTABLE",
-        "descripcion": "A través del ahorro energético, conservación del suelo, recupero de aguas pluviales, tratamiento de aguas sanitarias, materiales sustentables y reciclables en la construcción, cubierta verde y hasta la posibilidad de contar con domótica."
+        "nombre": "INMEDIATO",
+        "descripcion": "Se trata de proyectos fabricados entre 90 y 180 de construcción dependiendo la cantidad de m2, e instalados en tan solo unos pocos días para su rápida puesta en marcha."
+      },
+      {
+        "nombre": "TRANSPORTABLE",
+        "descripcion": "Cada unidad puede ser trasladada desde la fábrica hacia el lugar de destino en camiones y/o grúas especiales, para luego realizar las tareas de montaje necesarias."
       }
     ],
     "estadisticas": {
       "años_trayectoria": "5",
-      "m2_construidos": "4.200",
-      "modulos_producidos": "215",
-      "historias_de_exito": "215"
+      "m2_construidos": "4.500",
+      "historias_de_exito": "250"
     }
   },
   "nosotros": {
@@ -40,63 +39,78 @@
     "historia": [
       {
         "año": "2017",
-        "hito": "Inicio"
+        "hito": "Inicio",
+        "descripcion": "El arquitecto Marcelo Palmero (CEO y socio fundador), realiza un viaje a a China, luego de un año de estudios y análisis de sistemas constructivos no tradicionales."
       },
       {
         "año": "2017",
-        "hito": "Primeros Proyectos a escala"
+        "hito": "Primeros Proyectos a escala",
+        "descripcion": "En un pequeño taller de 200 m2 de la empresa SICA , comienzan a recrear los primeros proyectos a escala."
       },
       {
         "año": "2018",
-        "hito": "Primeros Prototipos"
+        "hito": "Primeros Prototipos",
+        "descripcion": "En la ciudad de Oncativo en conjunto con la empresa SICA SA comienza junto a el Estudio Palmero Vucovich a desarrollar los primeros prototipos."
       },
       {
         "año": "2019",
-        "hito": "Primer Unidad Modular"
+        "hito": "Primer Unidad Modular",
+        "descripcion": "Se construye en la Ciudad de Oncativo la primer unidad modular destinada a una oficina comercial instalada en Rio Segundo."
       },
       {
         "año": "2020",
-        "hito": "Lanzamiento Comercial"
+        "hito": "Lanzamiento Comercial",
+        "descripcion": "Se finaliza la construcción del primer prototipo de showroom W40 instalado en la ciudad de Oncativo. Nacimiento de la marca registrada Wellmod."
       },
       {
         "año": "2021",
-        "hito": "Producción en serie"
+        "hito": "Producción en serie",
+        "descripcion": "Inicio de producción en serie en Córdoba en alianza con Matricería Austral en una nave de 1500 m2. Producción de las dos primeras Casas Modular en Altos Pampa y Potrerillo de Larreta."
       },
       {
         "año": "2022",
-        "hito": "Expansión"
+        "hito": "Expansión",
+        "descripcion": "Crecimiento en otras provincias de distintos productos residenciales, comerciales y de servicios para importantes empresas."
       },
       {
         "año": "2023",
-        "hito": "Línea de ensamblaje"
+        "hito": "Línea de ensamblaje",
+        "descripcion": "Creación de una línea de ensamblaje con procesos constructivos en similitud con la industria automotriz lo cual permiten aumentar la producción."
       },
       {
         "año": "2023",
-        "hito": "Premios"
+        "hito": "Premios",
+        "descripcion": "Premios al diseño y la innovación: Expo Estilo Casa."
       },
       {
         "año": "2024",
-        "hito": "Exposiciones en USA"
+        "hito": "Exposiciones en USA",
+        "descripcion": "Participación en exposición MBI (Modular Building Institute) llevando la marca a Orlando, Estados Unidos."
       },
       {
         "año": "2024",
-        "hito": "Desarrollo modular para otros rubros"
+        "hito": "Desarrollo modular para otros rubros",
+        "descripcion": "Crecimiento exponencial en turismo, oficinas comerciales y servicios para Minería, Oil and Gas en la Patagonia Argentina."
       },
       {
         "año": "2024",
-        "hito": "Creación de la CACMI"
+        "hito": "Creación de la CACMI",
+        "descripcion": "Creación de la cámara Argentina de construcción modular (CACMI)."
       },
       {
         "año": "2025",
-        "hito": "Eventos y presentaciones"
+        "hito": "Eventos y presentaciones",
+        "descripcion": "Múltiples eventos y presentaciones en distintos ámbitos."
       },
       {
         "año": "2025",
-        "hito": "Construcción de dos plantas"
+        "hito": "Construcción de dos plantas",
+        "descripcion": "Inicio de diferentes construcciones modulares en altura (de dos plantas)."
       },
       {
         "año": "2025",
-        "hito": "Nueva fábrica"
+        "hito": "Nueva fábrica",
+        "descripcion": "Inauguración de nueva fábrica modelo de 5.000 m2 en Parque Industrial Polo 52."
       }
     ],
     "fundadores": [
@@ -163,54 +177,74 @@
       "respuesta": "Echa un vistazo a las preguntas frecuentes"
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
       "pregunta": "¿Son Contenedores?",
-      "respuesta": "No, son estructuras metálicas modulares que miden 6,20m de largo, por 3,20m de ancho y 3m de altura, formando 20m2 cubiertos."
+      "respuesta": "No, son estructuras metálicas modulares que miden 6,20m de largo, por 3,20m de ancho y 3m de altura, formando 20m2 cubiertos. La gran diferencia con los contenedores es que estos últimos son productos usados para cargas marítimas con medidas menores en su ancho, largo y alto."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
       "pregunta": "¿En cuánto tiempo se fabrican?",
-      "respuesta": "Se fabrican en un lapso de 90/120 días dependiendo la cantidad de m2 que tenga el proyecto, sujeto a disponibilidad de producción."
+      "respuesta": "El tiempo de fabricación varía entre los 90 y los 180 días dependiendo del tamaño del proyecto y la capacidad operativa de nuestra planta sujeto a producción."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
       "pregunta": "¿Qué tamaño tienen los módulos?",
-      "respuesta": "Nuestros módulos tienen 20m2 cubiertos, formados por 3,20 de ancho por 6,20 m de largo y 3 m de altura. De esta manera de 20m2 en 20m2 podemos ir agrupando la cantidad necesaria que el proyecto necesite. Hemos casas de hasta 200 m2."
+      "respuesta": "Disponemos de varias medidas de módulos que pueden combinarse entre si como si fuese un “lego”. Entre ellos utilizamos: 1.60 x 1.60 / 1.60 x 3.20 / 3.20 x 3.20 / 3.20 x 6.20 pudiendo ser agrupados en distintas posiciones tanto en un nivel como en dos. En todos los casos son resueltos con techos planos, pudiendo desarrollarse además con las mismas medidas en techos inclinados."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
+      "pregunta": "¿En cuántas etapas se divide la obra?",
+      "respuesta": "La obra se divide en 3 etapas:"
+    },
+    {
+      "categoria": "GENERAL",
       "pregunta": "¿De qué material son sus techos?",
-      "respuesta": "Nuestros techos planos son una cubierta monocasco de Plástico reforzado de fibra de vidrio (PRFV) garantizando de esta forma la absoluta estanqueidad de los mismos y asimismo nos da la oportunidad de utilizar cubiertas verdes, mejorando las aislaciones térmicas, acústicas y el cuidado del medio ambiente."
+      "respuesta": "En el caso de nuestros techos planos son resueltos con una cubierta monocasco de PRFV (Plástico Reforzado con Fibras de Vidrio) que otorga una estanqueidad absoluta y garantía de muchísimos años, brindando la posibilidad de utilizar cubiertas verdes sobre los mismos."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
+      "pregunta": "¿Qué sistema de climatización pueden utilizar?",
+      "respuesta": "Podemos utilizar distintos sistemas de climatización según las necesidades, presupuestos y requerimientos de cada zona geográfica:"
+    },
+    {
+      "categoria": "GENERAL",
       "pregunta": "¿Cómo se fabrican sus módulos?",
       "respuesta": "Nuestras construcciones se realizan en una planta industrial, donde a través de una línea de producción, se ensamblan en distintos dispositivos especiales. La estructura se compone de caños de acero, chapa galvanizada como base del hormigón alivianado. Los trabajos de instalaciones interiores en conjunto con los cerramientos se utilizan técnicas de Steel Frame, con terminaciones que pueden variar entre Eifs, Sidding, Chapa, Pedraflex, Placa cementicia, Porcelanato, etc."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
       "pregunta": "¿Es seguro el sistema constructivo modular?",
       "respuesta": "Si, 100%. Al ser construido en una planta industrial, cuenta con todos nuestros controles de calidad, durante todo el proceso de construcción, con nuestro personal formal especializado."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
       "pregunta": "¿Hacen ampliaciones de construcción tradicional o adosan a segundos niveles?",
       "respuesta": "No, ya que nosotros nos aseguramos de nuestros productos modulares como estructuras independientes en donde no podemos garantizar errores de filtraciones, resistencia estructural y vinculaciones al adosarlos a una construcción tradicional ya que afectaría a nuestro producto."
     },
     {
-      "categoria": "CONSTRUCTIVO",
+      "categoria": "GENERAL",
       "pregunta": "¿Se pueden realizar proyectos en 2 plantas?",
       "respuesta": "Sí, podemos realizarlos, son proyectos a medida."
     },
     {
       "categoria": "TRASLADO Y MONTAJE",
       "pregunta": "¿Llegan a todo el país?",
-      "respuesta": "Sí, somos de Córdoba, Argentina y llegamos a distintos puntos del país."
+      "respuesta": "Si, somos de Córdoba y llegamos a distintos puntos del país, no obstante hay regiones que requieren algún análisis previo de factibilidad de transportistas, de servicios de grúas entre otros items a tener en cuenta."
+    },
+    {
+      "categoria": "TRASLADO Y MONTAJE",
+      "pregunta": "¿Pueden exportar a otros países?",
+      "respuesta": "No, por el momento solo abastecemos el mercado local de Argentina. Si tienes interés en otra región o país limítrofe por cualquier tipo de proyecto nos envías un correo a"
     },
     {
       "categoria": "TRASLADO Y MONTAJE",
       "pregunta": "¿Se pueden instalar en cualquier lado?",
       "respuesta": "No, se realiza previamente un estudio de factibilidad del terreno o lugar de implantación para verificar las condiciones de acceso para descarga y montaje del módulo, ya que son unidades que pesan entre 5 y 7 mil kg."
+    },
+    {
+      "categoria": "TRASLADO Y MONTAJE",
+      "pregunta": "¿Pueden construir en terrenos entre medianeras?",
+      "respuesta": "No podemos adosar nuestros módulos a construcciones tradicionales existentes por cuestiones de logística y posibles vicios ocultos entre las mismas. En todos los casos nuestros proyectos están siempre aislados de muros o cerramientos"
     },
     {
       "categoria": "TRASLADO Y MONTAJE",
@@ -220,17 +254,12 @@
     {
       "categoria": "TRASLADO Y MONTAJE",
       "pregunta": "¿Dónde se instalan los módulos?",
-      "respuesta": "Se instalan sobre bases de hormigón."
-    },
-    {
-      "categoria": "TRASLADO Y MONTAJE",
-      "pregunta": "¿Cómo se traslada e instalan sus módulos?",
-      "respuesta": "Se trasladan en transportes especiales adoptados y pueden ser instalados mediante sistemas hidráulicos especialmente diseñados, o bien con grúas electrónicas de 70 Tn."
+      "respuesta": "Se pueden instalar sobre bases de hormigón pre moldeados (provistas por nuestra empresa) o en bases de hormigón armado in situ (según planos indicados)."
     },
     {
       "categoria": "FINANCIACIÓN",
-      "pregunta": "¿Cuáles son los métodos de pago?",
-      "respuesta": "En cuotas iguales entre los 30 y 120 días. También a través del banco Hipotecario, se ofrecen dos líneas de financiamiento, préstamo personal para casas industrializadas o crédito hipotecario a 20 años (sujeto a capacidad crediticia)."
+      "pregunta": "¿Cuáles son las opciones disponibles?",
+      "respuesta": "Disponemos como opciones de financiación:"
     },
     {
       "categoria": "OTRAS PREGUNTAS",
@@ -240,17 +269,27 @@
     {
       "categoria": "OTRAS PREGUNTAS",
       "pregunta": "¿Se entregan 100% terminadas?",
-      "respuesta": "Los módulos se construyen 99% terminados (se trasladan aberturas, revestimientos, muebles instalados, sanitarios y pinturas) y se terminan con la instalación en el lugar."
+      "respuesta": "Si, se construyen en su totalidad en planta terminados en un 99%, solo hacemos pequeños ajustes y uniones en obra. Podemos colocar cortinas, luces, mobiliarios, y cualquier objeto de decoración que quieras incluir en la etapa de construcción. De fábrica sale todo listo y probado."
     },
     {
       "categoria": "OTRAS PREGUNTAS",
       "pregunta": "¿Puedo elegir/personalizar las terminaciones?",
-      "respuesta": "Sí, se pueden elegir algunas alternativas en terminaciones a gusto del cliente."
+      "respuesta": "Si, en el caso de elegir un proyecto personalizado, disponemos de equipos de profesionales arquitectos destinados a tales fines para permitir elegir distintas alternativas de pisos, revestimientos, griferías, sanitarios , aberturas o componentes de diseño entre otros acorde al gusto o presupuesto de cada cliente."
+    },
+    {
+      "categoria": "OTRAS PREGUNTAS",
+      "pregunta": "¿Es seguro el sistema constructivo modular?",
+      "respuesta": "Si, además de ser sistemas probados en el mundo hace muchos años, disponen de nuestros controles de fabricación estando nuestra empresa en proceso de certificación de normas internacionales ISO 9001.2015."
+    },
+    {
+      "categoria": "OTRAS PREGUNTAS",
+      "pregunta": "¿Quién esta detrás de Wellmod y que tipo de garantías ofrecen?",
+      "respuesta": "Wellmod es una unidad de negocios del estudio de arquitectura Palmero Vucovich de la ciudad de Córdoba, con más 30 años de experiencia en proyectos y construcciones residenciales de alta gama en la región de Córdoba, Argentina."
     },
     {
       "categoria": "OTRAS PREGUNTAS",
       "pregunta": "¿La estructura soporta sismos o fuertes vientos?",
-      "respuesta": ""
+      "respuesta": "Si, la estructura está diseñada para soportar sismos y vientos fuertes acorde a cálculos para cada región de nuestro país."
     },
     {
       "categoria": "OTRAS PREGUNTAS",
@@ -277,11 +316,11 @@
         "Tanque de agua: De 500l incorporado embutido.",
         "Cocina: Mueble en melamina bajo mesada y estantes , bacha de acero, griferías y mesada de granito nacional.",
         "Placard: De servicio solo frentes, Placard con puerta e interior completo con estantes.",
-        "Baño: Pisos de porcelanato. Revestimientos en ceramicos. Vanitory suspendido. Bacha y cajones en melamina. Accesorios sanitarios.",
+        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Vanitory suspendido. Bacha y cajones en melamina. Accesorios sanitarios.",
         "Pisos: Flotante simil madera Zócalos de PVC.",
         "Iluminación LED artefactos interior y exterior adosados a muro.",
         "Instalaciones (eléctrica y sanitaria completa), termotanque eléctrico, bomba presurizadora",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado, sin cañería de cobre, cañerias para señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Caja para pre instalación aire acondicionado (1), sin cañería de cobre, cañerias para señales débiles, alarma, direct tv, sin cableados.",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. CONSULTAR PRECIO POR OPCION SIN COCINA Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
@@ -333,36 +372,13 @@
         "Instalaciones especiales: Caja para pre instalación aire acondicionado, sin cañería de cobre (1) cañerias para señales débiles, alarma, direct tv, sin cableados.",
         "Galería exterior: De estructura metálica, 6 m2, deck en WPC, cielorraso, cubierta de chapa e iluminación.",
         "Honorarios profesionales incluidos en este modelo customizado.",
-        "Garantía post venta 1 año y garantía estructural por 10 años. CONSULTAR PRECIO POR OPCION SIN COCINA Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación.",
-        "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
-        "Revestimiento exterior: Revestimiento plástico textura/ chapa acanalada",
-        "Carpeta: De piso de hormigón alivianado.",
-        "Carpinterías exteriores: De aluminio vidrio simple",
-        "Carpinterías interiores: Puertas interiores y marcos de PVC.herrajes y cerraduras convencionales.",
-        "Cielorraso: de PVC.",
-        "Terminación Interior: Steel frame, placa de yeso roca + lana de vidrio, pintura latex interior.",
-        "Cocina: Mueble en melamina bajo mesada y estantes , bacha de acero, griferías y mesada de granito nacional.",
-        "Placard: De servicio solo frentes, Placard con puerta e interior completo con estantes.",
-        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Vanitory suspendido. Bacha y cajones en melamina. Accesorios sanitarios.",
-        "Pisos: porcelanato .",
-        "Iluminación artefactos spot embutidos led interior",
-        "Instalaciones (eléctrica y sanitaria completa)",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado, sin cañería de cobre (1) cañerias para señales débiles, alarma, direct tv, sin cableados.",
-        "Galería exterior: De estructura metálica, 6 m2, deck en WPC, cielorraso, cubierta de chapa e iluminación.",
-        "Honorarios profesionales incluidos en este modelo customizado. No incluye gestion presentaciond e planos en comuna o municipio",
-        "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de acceso y obra, previo a la contratación."
+        "Garantía post venta 1 año y garantía estructural por 10 años. CONSULTAR PRECIO POR OPCION SIN COCINA Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
-        "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico.",
         "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
       "opcionales": [
-        "Equipo de aire acondicionado frio-calor con instalación.",
-        "Losa radiante eléctrica con display digital o Salamandra.",
-        "Cubierta verde.",
-        "Ambientación (mobiliario de decoración).",
         "Equipo de aire acondicionado frio-calor con instalación.",
         "Losa radiante eléctrica con display digital o Salamandra.",
         "Cubierta verde.",
@@ -371,16 +387,6 @@
       "opcionales_premium": [
         "Vidrio DVH.",
         "Piso porcelanato.",
-        "Cerradura electrónica.",
-        "Mueble de cocina con alacena y estantes.",
-        "Mesadas en granitos importados o cuarzos.",
-        "Garganta cortineras.",
-        "Tiras led decorativos interior-exterior.",
-        "Iluminación exterior.",
-        "Mampara corrediza doble y nicho en ducha.",
-        "Revestimiento siding símil madera exterior. W 26 Suite Monoambiente modular perfecto para alquiler turístico - Diseño compacto, moderno y funcional, pensado para ofrecer el máximo confort. Esta unidad con galería exterior, combina elegancia y practicidad. d. Precio Línea Intermedia: U$D 31.900 + IVA (Valor Puesto en fábrica) Consultar con un asesor",
-        "Vidrio DVH.",
-        "Piso porcelanato. Tanque de aguia Termotanque-Bomba presurizadora",
         "Cerradura electrónica.",
         "Mueble de cocina con alacena y estantes.",
         "Mesadas en granitos importados o cuarzos.",
@@ -401,19 +407,19 @@
       "incluye": [
         "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
         "Revestimiento exterior: Siding símil madera / chapa acanalada / otros.",
-        "Carpeta: De piso de hormigón alivianado.",
+        "Carpeta De piso de hormigón alivianado.",
         "Carpinterías exteriores: De aluminio vidrio simple. y herrajes y cerraduras convencionales.",
-        "Carpinterías interiores: Puertas interiores y marcos de PVC. Herrajes y cerraduras convencionales.",
-        "Cielorraso: Melamínicos de PVC.",
-        "Terminación Interior: Steel Frame, placa de yeso roca + lana de vidrio, pintura látex interior.",
-        "Tanque de agua: De 500l incorporado embutido.",
+        "Carpinterías interiores: Puertas interiores y marcos de PVC. herrajes y cerraduras convencionales.",
+        "Cielorraso: Melaminicos de PVC.",
+        "Terminación Interior: Steel frame, placa de yeso roca + lana de vidrio, pintura latex interior.",
+        "Tanque de agua De 500l incorporado embutido.",
         "Muebles fijos: Muebles en melamina, estantes con LED, bacha de acero, griferías y mesada de granito nacional.",
-        "Placard: De servicio para termotanque y bomba presurizadora / Placard con puerta e interior completo con cajonera.",
+        "Placard: De servicio para termotanque, y bomba presurizadora / Placard con puerta e interior completo con cajonera.",
         "Baño: Pisos de porcelanato. Revestimientos en porcelanato. Vanitory suspendido, bacha y cajones en melamina. Espejo. Accesorios sanitarios de la línea portarrollos, perchas y porta toalla. Nicho decorativo en ducha. Mampara de baño doble",
         "Pisos: Porcelanato / flotante simil madera. zocalos de PVC.",
         "Iluminación LED artefactos interior y exterior adosados a muro. Luz de emergencia.",
         "Instalaciones (eléctrica y sanitaria), termotanque eléctrico, bomba presurizadora y cañerías pre aire para A/A)",
-        "Instalaciones especiales: Cañerías, señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Cañerías señales débiles, alarma, direct tv, sin cableados.",
         "Galería exterior: De estructura metálica, 6 m2, deck en WPC, cielorraso, cubierta en policarbonato e iluminación.",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
@@ -439,19 +445,19 @@
       "incluye": [
         "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
         "Revestimiento exterior: Siding símil madera / chapa acanalada / otros.",
-        "Carpeta: De piso de hormigón alivianado.",
+        "Carpeta De piso de hormigón alivianado.",
         "Carpinterías exteriores: De aluminio vidrio simple. y herrajes y cerraduras convencionales.",
-        "Carpinterías interiores: Puertas interiores y marcos de PVC. Herrajes y cerraduras convencionales.",
+        "Carpinterías interiores: Puertas interiores y marcos de PVC. herrajes y cerraduras convencionales.",
         "Cielorraso: Melaminicos de PVC.",
-        "Terminación Interior: Steel Frame, placa de yeso roca + lana de vidrio, pintura látex interior.",
-        "Tanque de agua: De 500l incorporado embutido.",
+        "Terminación Interior: Steel frame, placa de yeso roca + lana de vidrio, pintura latex interior.",
+        "Tanque de agua De 500l incorporado embutido.",
         "Muebles fijos: Muebles en melamina, estantes con LED, bacha de acero, griferías y mesada de granito nacional.",
-        "Placard: De servicio para termotanque y bomba presurizadora / Placard con puerta e interior completo con cajonera.",
+        "Placard: De servicio para termotanque, y bomba presurizadora / Placard con puerta e interior completo con cajonera.",
         "Baño: Pisos de porcelanato. Revestimientos en porcelanato. Vanitory suspendido, bacha y cajones en melamina. Espejo. Accesorios sanitarios de la línea portarrollos, perchas y porta toalla. Nicho decorativo en ducha. Mampara de baño doble",
-        "Pisos: Porcelanato / flotante simil madera. zocalos de PVC.",
+        "Pisos: Porcelanato / flotante símil madera. zócalos de PVC.",
         "Iluminación LED artefactos interior y exterior adosados a muro. Luz de emergencia.",
         "Instalaciones (eléctrica y sanitaria), termotanque eléctrico, bomba presurizadora y cañerías pre aire para A/A)",
-        "Instalaciones especiales: Cañerías, señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Cañerías señales débiles, alarma, direct tv, sin cableados.",
         "Balcón: De estructura metálica, deck en WPC, cielorraso, cubierta en policarbonato e iluminación.",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
@@ -474,7 +480,7 @@
       "whatsapp_consulta": "https://wa.link/cddibz",
       "incluye": [
         "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
-        "Revestimiento exterior: Revestimiento plástico texturado/ chapa acanalada",
+        "Revestimiento exterior: Revestimiento plástico texturado / chapa acanalada",
         "Carpeta: De piso de hormigón alivianado.",
         "Carpinterías exteriores: De aluminio vidrio simple",
         "Carpinterías interiores: Puertas interiores y marcos de PVC. Herrajes y cerraduras convencionales.",
@@ -482,7 +488,7 @@
         "Terminación Interior: Steel Frame, placa de yeso roca + lana de vidrio, pintura látex interior.",
         "Cocina: Mueble en melamina bajo mesada y estantes, bacha de acero, griferías y mesada de granito nacional.",
         "Placard: De servicio solo frentes, Placard con puertas e interiores completos con estantes y cajonera",
-        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferias, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
+        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferías, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
         "Pisos: Porcelanato Zócalos de PVC.",
         "Iluminación artefactos embutidos tipo led",
         "Instalaciones (eléctrica y sanitaria completa),",
@@ -491,10 +497,16 @@
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor costo del mismo",
+        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
-      "opcionales": [],
+      "opcionales": [
+        "Equipo de aire acondicionado frio-calor con instalación.",
+        "Losa radiante eléctrica con display digital o Salamandra.",
+        "Cubierta verde.",
+        "Galería con deck.",
+        "Ambientación (mobiliario de decorativo)."
+      ],
       "opcionales_premium": [
         "Vidrio DVH.",
         "Tanque de agua de 500 l embutido",
@@ -509,7 +521,7 @@
         "Equipo de aire acondicionado frio-calor con instalación.",
         "Losa radiante eléctrica con display digital o Salamandra.",
         "Cubierta verde.",
-        "Galeria con deck.",
+        "Galería con deck.",
         "Ambientación (mobiliario de decorativo)."
       ]
     },
@@ -522,7 +534,7 @@
       "whatsapp_consulta": "https://wa.link/vyfows",
       "incluye": [
         "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
-        "Revestimiento exterior: Revestimiento plástico texturado/ chapa acanalada",
+        "Revestimiento exterior: Revestimiento plástico texturado / chapa acanalada",
         "Carpeta: De piso de hormigón alivianado.",
         "Carpinterías exteriores: De aluminio vidrio simple",
         "Carpinterías interiores: Puertas interiores y marcos de PVC. Herrajes y cerraduras convencionales.",
@@ -532,16 +544,16 @@
         "Cocina: Mueble en melamina bajo mesada y estantes , bacha de acero, griferías y mesada de granito nacional.",
         "Placard: De servicio solo frentes, Placard con puerta e interior completo con estantes.",
         "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Vanitory suspendido. Bacha y cajones en melamina. Accesorios sanitarios.",
-        "Pisos: Flotante simil madera Zócalos de PVC.",
-        "Iluminación artefactos spot embutidos led interior",
+        "Pisos: Flotante símil madera Zócalos de PVC.",
+        "Iluminación artefactos spot embutidos led interior.",
         "Instalaciones (eléctrica y sanitaria completa), termotanque eléctrico, bomba presurizadora",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado, sin cañería de cobre (1) cañerias para señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Caja para pre instalación aire acondicionado, sin cañería de cobre (1) cañerías para señales débiles, alarma, direct tv, sin cableados.",
         "Galería exterior: De estructura metálica, 12 m2, deck en WPC, cielorraso, cubierta de chapa e iluminación.",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. CONSULTAR PRECIO POR OPCION SIN COCINA Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor costo del mismo",
+        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
       "opcionales": [
@@ -572,7 +584,7 @@
       "whatsapp_consulta": "https://wa.link/t6sogx",
       "incluye": [
         "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
-        "Revestimiento exterior: Revestimiento plástico texturado/ chapa acanalada",
+        "Revestimiento exterior: Revestimiento plástico texturado / chapa acanalada",
         "Carpeta: De piso de hormigón alivianado.",
         "Carpinterías exteriores: De aluminio vidrio simple",
         "Carpinterías interiores: Puertas interiores y marcos de PVC. Herrajes y cerraduras convencionales.",
@@ -581,16 +593,16 @@
         "Tanque de agua: De 500l incorporado embutido.",
         "Cocina: Mueble en melamina bajo mesada y estantes, bacha de acero, griferías y mesada de granito nacional.",
         "Placard: Placard con puertas e interiores completos con estantes y cajonera y frentes solo en placard de servicio.",
-        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferias, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
-        "Pisos: Flotante simil madera Zócalos de PVC.",
+        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferías, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
+        "Pisos: Flotante símil madera Zócalos de PVC.",
         "Iluminación artefactos interiores embutidos tipo led",
         "Instalaciones (eléctrica y sanitaria completa), termotanque eléctrico, bomba presurizadora",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerias para señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerías para señales débiles, alarma, direct tv, sin cableados.",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor costo del mismo",
+        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
       "opcionales": [
@@ -630,18 +642,18 @@
         "Tanque de agua: De 500l incorporado embutido.",
         "Cocina: Mueble en melamina bajo mesada y estantes, bacha de acero, griferías y mesada de granito nacional.",
         "Placard: Placard con puertas e interiores completos con estantes y cajonera y frentes solo en placard de servicio.",
-        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferias, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
-        "Pisos: Flotante simil madera Zócalos de PVC.",
+        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferías, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
+        "Pisos: Flotante símil madera Zócalos de PVC.",
         "Iluminación artefactos interiores embutidos tipo led",
         "Instalaciones (eléctrica y sanitaria completa), termotanque eléctrico, bomba presurizadora",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerias para señales débiles, alarma, direct tv, sin cableados.",
-        "Pasillo hall vinculante vidriado: de 3m2, de estructura metálica, completamente vidriado, se usa como conexion entre ambientes, para integracion con el exterior y mayor privacidad y acústica",
-        "Galería exterior: Estructura modular de caño de 20 m2, cubierta metalica descubierta, deck wpc, iluminación (3.20 x 6.20)",
+        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerías para señales débiles, alarma, direct tv, sin cableados.",
+        "Pasillo hall vinculante vidriado: de 3m2, de estructura metálica, completamente vidriado, se usa como conexión entre ambientes, para integración con el exterior y mayor privacidad y acústica",
+        "Galería exterior: Estructura modular de caño de 20 m2, cubierta metalica con cubierta de chapa, deck wpc, iluminación (3.20 x 6.20)",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor costo del mismo",
+        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
       "opcionales": [
@@ -671,7 +683,7 @@
       "whatsapp_consulta": "https://wa.link/rlwak8",
       "incluye": [
         "Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
-        "Revestimiento exterior: Revestimiento plástico texturado/ chapa acanalada",
+        "Revestimiento exterior: Revestimiento plástico texturado / chapa acanalada",
         "Carpeta: De piso de hormigón alivianado.",
         "Carpinterías exteriores: De aluminio vidrio simple",
         "Carpinterías interiores: Puertas interiores y marcos de PVC. Herrajes y cerraduras convencionales.",
@@ -679,17 +691,17 @@
         "Terminación Interior: Steel Frame, placa de yeso roca + lana de vidrio, pintura látex interior.",
         "Cocina: Mueble en melamina bajo mesada y estantes, bacha de acero, griferías y mesada de granito nacional.",
         "Placard: Placard con puertas e interiores completos con estantes y cajonera y frentes solo en placard de servicio.",
-        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferias, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
-        "Pisos: Flotante simil madera Zócalos de PVC.",
+        "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferías, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
+        "Pisos: Flotante símil madera Zócalos de PVC.",
         "Iluminación artefactos interiores embutidos tipo led",
         "Instalaciones (eléctrica y sanitaria completa), termotanque eléctrico, bomba presurizadora",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerias para señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerías para señales débiles, alarma, direct tv, sin cableados.",
         "Pasillo Hall Vinculante: Pasillos con estructura metálica, vidriados, usados como vinculación entre ambientes otorgando conexión visual con el exterior y privacidad y aislación acústica en el interior",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor costo del mismo",
+        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
       "opcionales": [
@@ -730,15 +742,15 @@
         "Cocina: Mueble en melamina bajo mesada y estantes, bacha de acero, griferías y mesada de granito nacional.",
         "Placard: Placard con puertas e interiores completos con estantes y cajonera y frentes solo en placard de servicio.",
         "Baño: Pisos de porcelanato. Revestimientos en cerámicos. Sanitarios y bidet Roca modelo Mónaco, griferias, vanitory suspendido con bacha y cajones en melamina. Accesorios sanitarios.",
-        "Pisos: Flotante simil madera Zócalos de PVC.",
+        "Pisos: Flotante símil madera Zócalos de PVC.",
         "Iluminación artefactos interiores embutidos tipo led",
         "Instalaciones (eléctrica y sanitaria completa), termotanque eléctrico, bomba presurizadora",
-        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerias para señales débiles, alarma, direct tv, sin cableados.",
+        "Instalaciones especiales: Caja para pre instalación aire acondicionado sin cañería de cobre (3), cañerías para señales débiles, alarma, direct tv, sin cableados.",
         "Honorarios profesionales incluidos en este modelo customizado.",
         "Garantía post venta 1 año y garantía estructural por 10 años. Todo terreno deberá tener la aprobación de factibilidad de obra, previo a la contratación."
       ],
       "exclusiones": [
-        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor costo del mismo",
+        "Se cotizarán por separado las tareas de traslado, montaje, hermanado de módulos y conexiones a las redes existentes (desde fabrica en Córdoba capital hasta el lugar de destino) Consultar con asesor",
         "Preparación del terreno, bases de apoyo y acometidas (agua, luz, cloaca hasta le punto de conexión con módulos) a cargo del cliente, bajo nuestro asesoramiento técnico."
       ],
       "opcionales": [
@@ -793,30 +805,48 @@
       "url": "https://wellmod.odoo.com/obras-viviendas",
       "proyectos": [
         {
+          "url": "https://wellmod.odoo.com/casa-ja-1",
+          "nombre": "CASA JA",
+          "descripcion": "",
+          "categoria": "Viviendas",
+          "ubicacion": "Potrero de Garay, Córdoba",
+          "tamano": "",
+          "anio": ""
+        },
+        {
+          "url": "",
+          "nombre": "CASA GM",
+          "descripcion": "",
+          "categoria": "Viviendas",
+          "ubicacion": "San Javier, Córdoba",
+          "tamano": "",
+          "anio": ""
+        },
+        {
           "url": "https://wellmod.odoo.com/casa-mr",
           "nombre": "CASA MR",
           "descripcion": "Gracias a su diseño integrado, esta vivienda de campo logra una conexión armónica entre las áreas de descanso y los espacios sociales mediante elegantes pasillos vidriados, que permiten disfrutar de la luz natural y de las vistas al entorno verde en todo momento.",
           "categoria": "Viviendas",
           "ubicacion": "San Clemente, Córdoba",
-          "tamano": "",
+          "tamano": "170m²",
           "anio": ""
         },
         {
           "url": "https://wellmod.odoo.com/casa-lj",
           "nombre": "CASA LJ",
-          "descripcion": "Descubre esta moderna y elegante casa modular de 66 m2 en el impresionante entorno de San Carlos de Bariloche. Perfecta para quienes buscan un diseño contemporáneo, eficiencia constructiva y una conexión inigualable con la naturaleza. Cuenta con 3 módulos vinculados a través de pasillos vidriados que conectan cada ambiente.",
+          "descripcion": "Descubre esta moderna y elegante casa modular de 66 m2 en el impresionante entorno de San Carlos de Bariloche. Perfecta para quienes buscan un diseño contemporáneo, eficiencia constructiva y una conexión inigualable con la naturaleza.",
           "categoria": "Viviendas",
           "ubicacion": "San Carlos de Bariloche, Rio Negro",
-          "tamano": "66m2",
+          "tamano": "66m²",
           "anio": ""
         },
         {
           "url": "https://wellmod.odoo.com/casa-my",
           "nombre": "CASA MY",
-          "descripcion": "Esta casa combina un diseño moderno y minimalista con una fuerte conexión con la naturaleza. Elevada sobre pilotes, se adapta perfectamente al terreno rocoso y al bosque de pinos que la rodea, integrándose al paisaje sin alterar su esencia.",
+          "descripcion": "Esta casa combina un diseño moderno y minimalista con una fuerte conexión con la naturaleza.",
           "categoria": "Viviendas",
           "ubicacion": "Base Los Gigantes, Córdoba",
-          "tamano": "",
+          "tamano": "80m²",
           "anio": ""
         },
         {
@@ -825,25 +855,25 @@
           "descripcion": "Ubicada en un entorno natural, esta moderna casa modular ofrece un espacio sereno y minimalista. La arquitectura rectangular y de una sola planta se integra con el paisaje. Sus grandes ventanales permiten que la luz natural inunde el interior durante el día, y por la noche, las luces del hogar crean un ambiente acogedor que resalta el contraste con el cielo estrellado.",
           "categoria": "Viviendas",
           "ubicacion": "Potrerillo de Larreta, Córdoba",
-          "tamano": "",
+          "tamano": "80m²",
           "anio": ""
         },
         {
           "url": "https://wellmod.odoo.com/casa-ad",
           "nombre": "CASA AD",
-          "descripcion": "Esta casa de diseño moderno se integra armoniosamente con un entorno natural. La arquitectura, de líneas simples y ángulos rectos, crea una estructura de un solo nivel con diferentes módulos interconectados por pasillos o espacios abiertos.",
+          "descripcion": "Esta casa de diseño moderno se integra armoniosamente con un entorno natural.",
           "categoria": "Viviendas",
           "ubicacion": "Potrero de Garay, Córdoba",
-          "tamano": "",
+          "tamano": "230m²",
           "anio": ""
         },
         {
           "url": "https://wellmod.odoo.com/casa-nj",
-          "nombre": "CASA NJ",
-          "descripcion": "Esta casa se compone de tres módulos separados y paralelos, unidos por la misma estética de diseño. La estructura de la casa es de un diseño moderno y minimalista, con revestimiento oscuro y grandes ventanales de cristal que reflejan el cielo azul y el entorno, permitiendo que la luz natural inunde el interior.",
+          "nombre": "CASA NG",
+          "descripcion": "Esta casa se compone de tres módulos separados y paralelos, unidos por la misma estética de diseño.",
           "categoria": "Viviendas",
           "ubicacion": "Golpe de agua, Calamuchita, Córdoba",
-          "tamano": "",
+          "tamano": "26m²",
           "anio": ""
         },
         {
@@ -852,16 +882,16 @@
           "descripcion": "Ubicada en un entorno natural rodeado de árboles, esta casa moderna equilibra a la perfección el diseño contemporáneo con la belleza de su entorno.",
           "categoria": "Viviendas",
           "ubicacion": "Molvento, Calamuchita, Córdoba",
-          "tamano": "",
+          "tamano": "182m²",
           "anio": ""
         },
         {
           "url": "https://wellmod.odoo.com/casa-jv",
           "nombre": "CASA JV",
-          "descripcion": "Esta casa, con un diseño moderno y acogedor, presenta un espacio principal de concepto abierto que integra la sala, el comedor y la cocina. El estilo minimalista y funcional se combina con elementos rústicos, como la mesa de madera y el piso de vinilo que imita la madera clara.",
+          "descripcion": "Esta casa, con un diseño moderno y acogedor, presenta un espacio principal de concepto abierto que integra la sala, el comedor y la cocina.",
           "categoria": "Viviendas",
           "ubicacion": "Villa Allende, Córdoba",
-          "tamano": "",
+          "tamano": "40m²",
           "anio": ""
         },
         {
@@ -870,7 +900,7 @@
           "descripcion": "Esta casa modular combina líneas modernas y un estilo minimalista con el confort de los grandes ventanales que integran los espacios interiores con el entorno natural.",
           "categoria": "Viviendas",
           "ubicacion": "Rafaela, Santa Fe",
-          "tamano": "",
+          "tamano": "120m²",
           "anio": ""
         },
         {
@@ -879,7 +909,7 @@
           "descripcion": "Casa modular de diseño moderno y minimalista, ideal para quienes buscan una escapada en la naturaleza. Su estructura exterior, de color oscuro, contrasta de forma armónica con los elementos naturales que la rodean.",
           "categoria": "Viviendas",
           "ubicacion": "Agua de Oro, Córdoba",
-          "tamano": "",
+          "tamano": "66m²",
           "anio": ""
         }
       ]
@@ -896,7 +926,7 @@
           "categoria": "Turismo",
           "ubicacion": "Los Reartes, Córdoba",
           "tamano": "200m²",
-          "anio": ""
+          "anio": "2022"
         },
         {
           "url": "https://wellmod.odoo.com/lasalpassuites",
@@ -904,8 +934,8 @@
           "descripcion": "Una escapada a la naturaleza en Potrero de Garay. Descubre un refugio de paz en la tranquilidad de Potrero de Garay, Córdoba. Una suite turística, diseñada con una arquitectura modular y transportable, que ofrece una experiencia única para desconectar y conectar con la naturaleza.",
           "categoria": "Turismo",
           "ubicacion": "Potrero de Garay, Córdoba",
-          "tamano": "",
-          "anio": ""
+          "tamano": "80m²",
+          "anio": "2022"
         },
         {
           "url": "https://wellmod.odoo.com/laramadita",
@@ -922,6 +952,15 @@
           "descripcion": "Un refugio donde el Nahuel Huapi se convierte en el escenario perfecto para cada amanecer. Una experiencia única en Bariloche: despertar cada día frente a vistas que enamoran, rodeada de naturaleza y envuelta en confort.",
           "categoria": "Turismo",
           "ubicacion": "San Carlos de Bariloche, Río Negro",
+          "tamano": "",
+          "anio": ""
+        },
+        {
+          "url": "",
+          "nombre": "Boschetto Suites",
+          "descripcion": "",
+          "categoria": "Turismo",
+          "ubicacion": "Atos Pampa, Calamuchita, Córdoba",
           "tamano": "",
           "anio": ""
         }
@@ -973,7 +1012,7 @@
     {
       "slug": "oil-and-gas",
       "nombre": "Oil and Gas",
-      "url": "https://wellmod.odoo.com/obras-oil-and-gas",
+      "url": "https://wellmod.odoo.com/obras-oilandgas",
       "proyectos": [
         {
           "url": "https://wellmod.odoo.com/vista-energy",

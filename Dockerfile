@@ -9,6 +9,7 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY wellmod_scraper.py /app/wellmod_scraper.py
+COPY wellmod/ /app/wellmod/
 COPY wellmod_cached_api.py /app/wellmod_cached_api.py
 COPY docker-entrypoint.sh /app/docker-entrypoint.sh
 RUN chmod +x /app/docker-entrypoint.sh
