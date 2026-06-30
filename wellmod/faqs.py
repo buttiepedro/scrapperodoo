@@ -2,6 +2,8 @@
 
 import re
 
+from bs4 import BeautifulSoup
+
 from .fetch import get_soup
 from .text import clean, get_lines, strip_noise
 
@@ -9,6 +11,58 @@ from .text import clean, get_lines, strip_noise
 def scrape_faqs() -> list[dict]:
     soup = get_soup("/faqs")
     strip_noise(soup)
+
+    faqs = _scrape_faqs_accordion(soup)
+    if faqs:
+        return faqs
+
+    # Fallback: estructura de acordeón no encontrada, usar texto lineal
+    return _scrape_faqs_lines(soup)
+
+
+def _scrape_faqs_accordion(soup: BeautifulSoup) -> list[dict]:
+    """Extrae las FAQs del acordeón de Odoo.
+
+    Cada categoría es un ``div.accordion`` precedido por un ``span.h4-fs`` con su
+    título; dentro, cada ``div.card`` tiene la pregunta en ``.card-header`` y la
+    respuesta en ``.card-body``. Esto evita arrastrar el intro/footer de la
+    página (p.ej. "¿Tienes alguna duda?") y empareja bien pregunta y respuesta.
+    """
+    faqs = []
+
+    for acc in soup.select("div.accordion"):
+        # Categoría: título (span.h4-fs) más cercano antes del acordeón.
+        categoria = "GENERAL"
+        for el in acc.find_all_previous("span", class_="h4-fs"):
+            titulo = clean(el.get_text()).upper()
+            if titulo:
+                categoria = titulo
+                break
+
+        for card in acc.select("div.card"):
+            head = card.select_one(".card-header")
+            pregunta = clean(head.get_text()) if head else ""
+            if not pregunta:
+                continue
+
+            body = card.select_one(".card-body")
+            if body is not None:
+                parrafos = [clean(p.get_text()) for p in body.find_all("p")]
+                respuesta = " ".join(p for p in parrafos if p) or clean(body.get_text())
+            else:
+                respuesta = ""
+
+            faqs.append({
+                "categoria": categoria,
+                "pregunta": pregunta,
+                "respuesta": respuesta,
+            })
+
+    return faqs
+
+
+def _scrape_faqs_lines(soup: BeautifulSoup) -> list[dict]:
+    """Fallback histórico: detecta preguntas (``¿...?``) en el texto lineal."""
     lines = get_lines(soup)
 
     CATEGORIAS = {"CONSTRUCTIVO", "TRASLADO Y MONTAJE", "FINANCIACIÓN", "OTRAS PREGUNTAS"}

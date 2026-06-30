@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-30T11:10:10.075372",
+    "scraped_at": "2026-06-30T15:21:23.041192",
     "source": "https://wellmod.odoo.com",
     "version": "1.0"
   },
@@ -172,57 +172,52 @@
   ],
   "faqs": [
     {
-      "categoria": "GENERAL",
-      "pregunta": "¿Tienes alguna duda?",
-      "respuesta": "Echa un vistazo a las preguntas frecuentes"
-    },
-    {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Son Contenedores?",
       "respuesta": "No, son estructuras metálicas modulares que miden 6,20m de largo, por 3,20m de ancho y 3m de altura, formando 20m2 cubiertos. La gran diferencia con los contenedores es que estos últimos son productos usados para cargas marítimas con medidas menores en su ancho, largo y alto."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿En cuánto tiempo se fabrican?",
       "respuesta": "El tiempo de fabricación varía entre los 90 y los 180 días dependiendo del tamaño del proyecto y la capacidad operativa de nuestra planta sujeto a producción."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Qué tamaño tienen los módulos?",
       "respuesta": "Disponemos de varias medidas de módulos que pueden combinarse entre si como si fuese un “lego”. Entre ellos utilizamos: 1.60 x 1.60 / 1.60 x 3.20 / 3.20 x 3.20 / 3.20 x 6.20 pudiendo ser agrupados en distintas posiciones tanto en un nivel como en dos. En todos los casos son resueltos con techos planos, pudiendo desarrollarse además con las mismas medidas en techos inclinados."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿En cuántas etapas se divide la obra?",
-      "respuesta": "La obra se divide en 3 etapas:"
+      "respuesta": "La obra se divide en 3 etapas: 1️⃣ CONSTRUCCIÓN DE MÓDULOS – Construcción en fábrica, 100% llave en mano. 2️⃣ TRASLADO Y MONTAJE – Envío desde Córdoba, unión de módulos (hermanado) y conexión a redes. 3️⃣ PREPARACIÓN DEL TERRENO (cliente) – Nivelación de suelos, ejecución de bases de hormigón in situ o premoldeado, acometidas de agua, luz y cloacas."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿De qué material son sus techos?",
       "respuesta": "En el caso de nuestros techos planos son resueltos con una cubierta monocasco de PRFV (Plástico Reforzado con Fibras de Vidrio) que otorga una estanqueidad absoluta y garantía de muchísimos años, brindando la posibilidad de utilizar cubiertas verdes sobre los mismos."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Qué sistema de climatización pueden utilizar?",
       "respuesta": "Podemos utilizar distintos sistemas de climatización según las necesidades, presupuestos y requerimientos de cada zona geográfica:"
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Cómo se fabrican sus módulos?",
       "respuesta": "Nuestras construcciones se realizan en una planta industrial, donde a través de una línea de producción, se ensamblan en distintos dispositivos especiales. La estructura se compone de caños de acero, chapa galvanizada como base del hormigón alivianado. Los trabajos de instalaciones interiores en conjunto con los cerramientos se utilizan técnicas de Steel Frame, con terminaciones que pueden variar entre Eifs, Sidding, Chapa, Pedraflex, Placa cementicia, Porcelanato, etc."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Es seguro el sistema constructivo modular?",
-      "respuesta": "Si, 100%. Al ser construido en una planta industrial, cuenta con todos nuestros controles de calidad, durante todo el proceso de construcción, con nuestro personal formal especializado."
+      "respuesta": "Si, 100%. Al ser construido en una planta industrial, cuenta con todos nuestros controles de calidad, durante todo el proceso de construcción, con nuestro personal formal especializado. Asimismo poseemos Certificados de Aptitud Técnica (CAT Nº IF -2021-09596307-APN-DGDYD#MDTYH) en todos nuestros procesos avalados por la sub secretaria de viviendas de la nación."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Hacen ampliaciones de construcción tradicional o adosan a segundos niveles?",
       "respuesta": "No, ya que nosotros nos aseguramos de nuestros productos modulares como estructuras independientes en donde no podemos garantizar errores de filtraciones, resistencia estructural y vinculaciones al adosarlos a una construcción tradicional ya que afectaría a nuestro producto."
     },
     {
-      "categoria": "GENERAL",
+      "categoria": "SISTEMA CONSTRUCTIVO",
       "pregunta": "¿Se pueden realizar proyectos en 2 plantas?",
       "respuesta": "Sí, podemos realizarlos, son proyectos a medida."
     },
@@ -234,7 +229,7 @@
     {
       "categoria": "TRASLADO Y MONTAJE",
       "pregunta": "¿Pueden exportar a otros países?",
-      "respuesta": "No, por el momento solo abastecemos el mercado local de Argentina. Si tienes interés en otra región o país limítrofe por cualquier tipo de proyecto nos envías un correo a"
+      "respuesta": "No, por el momento solo abastecemos el mercado local de Argentina. Si tienes interés en otra región o país limítrofe por cualquier tipo de proyecto nos envías un correo a hola@wellmod.com.ar y analizamos en conjunto esa posibilidad."
     },
     {
       "categoria": "TRASLADO Y MONTAJE",
@@ -254,17 +249,17 @@
     {
       "categoria": "TRASLADO Y MONTAJE",
       "pregunta": "¿Dónde se instalan los módulos?",
-      "respuesta": "Se pueden instalar sobre bases de hormigón pre moldeados (provistas por nuestra empresa) o en bases de hormigón armado in situ (según planos indicados)."
+      "respuesta": "Se pueden instalar sobre bases de hormigón pre moldeados (provistas por nuestra empresa) o en bases de hormigón armado in situ (según planos indicados). Los módulos se trasportan en camiones o carretones especialmente acondicionados para tal fin. Luego para la instalación se utilizan según los casos diversos dispositivos hidráulicos o bien grúas telescopios de 70/90 tn según requerimientos técnicos y de logística."
     },
     {
       "categoria": "FINANCIACIÓN",
       "pregunta": "¿Cuáles son las opciones disponibles?",
-      "respuesta": "Disponemos como opciones de financiación:"
+      "respuesta": "Disponemos como opciones de financiación: • Pagos durante el proceso de construcción entre 90 y 120 días. • Créditos personales o hipotecarios a través de Banco Hipotecario → ver más aquí • Opciones de Tokenizacion → ver más aquí"
     },
     {
       "categoria": "OTRAS PREGUNTAS",
       "pregunta": "¿Dónde se fabrican?",
-      "respuesta": "Dentro de una planta industrial, ubicada en"
+      "respuesta": "Dentro de una planta industrial, ubicada en Parque Industrial Polo 52 AU Córdoba-Rosario a 500m de Circunvalación. Córdoba, Argentina."
     },
     {
       "categoria": "OTRAS PREGUNTAS",
@@ -284,17 +279,12 @@
     {
       "categoria": "OTRAS PREGUNTAS",
       "pregunta": "¿Quién esta detrás de Wellmod y que tipo de garantías ofrecen?",
-      "respuesta": "Wellmod es una unidad de negocios del estudio de arquitectura Palmero Vucovich de la ciudad de Córdoba, con más 30 años de experiencia en proyectos y construcciones residenciales de alta gama en la región de Córdoba, Argentina."
+      "respuesta": "Wellmod es una unidad de negocios del estudio de arquitectura Palmero Vucovich de la ciudad de Córdoba, con más 30 años de experiencia en proyectos y construcciones residenciales de alta gama en la región de Córdoba, Argentina. Disponen nuestros módulos de: 10 años de garantía ( sobre aspectos estructurales de cada módulo) y 1 año de garantía sobre la totalidad de los componentes empleados en cuanto a su materialidad y mano de obra de fabricación, entregando a cada usuario un manual de garantía, usos y mantenimiento."
     },
     {
       "categoria": "OTRAS PREGUNTAS",
       "pregunta": "¿La estructura soporta sismos o fuertes vientos?",
       "respuesta": "Si, la estructura está diseñada para soportar sismos y vientos fuertes acorde a cálculos para cada región de nuestro país."
-    },
-    {
-      "categoria": "OTRAS PREGUNTAS",
-      "pregunta": "¿Tienes más dudas?",
-      "respuesta": ""
     }
   ],
   "tipologias": [
@@ -943,8 +933,8 @@
           "descripcion": "Un refugio de paz en el corazón de Fiambalá, Catamarca. La Posada La Ramadita",
           "categoria": "Turismo",
           "ubicacion": "Fiambalá, Catamarca",
-          "tamano": "",
-          "anio": ""
+          "tamano": "52m²",
+          "anio": "2023"
         },
         {
           "url": "https://wellmod.odoo.com/florentina",
