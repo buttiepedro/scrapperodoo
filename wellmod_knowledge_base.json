@@ -1,12 +1,32 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-30T15:21:23.041192",
+    "scraped_at": "2026-07-01T09:00:20.162522",
     "source": "https://wellmod.odoo.com",
     "version": "1.0"
   },
   "empresa": {
     "descripcion": "Brindar soluciones modulares, en tiempos record, fomentando la sustentabilidad y minimizando los desperdicios de la construcción.",
     "pilares": [
+      {
+        "nombre": "SIMPLE",
+        "descripcion": "Calidad industrial con precisión garantizada en cada proceso."
+      },
+      {
+        "nombre": "MODULAR",
+        "descripcion": "Diseño flexible y eficiente, adaptable a tus necesidades."
+      },
+      {
+        "nombre": "TRANSPORTABLE",
+        "descripcion": "Logística inteligente desde la planta hasta el destino final."
+      },
+      {
+        "nombre": "SUSTENTABLE",
+        "descripcion": "Tecnología enfocada en el ahorro energético y bajo impacto."
+      },
+      {
+        "nombre": "INMEDIATO",
+        "descripcion": "Ejecución rápida, tiempos optimizados y puesta en marcha."
+      },
       {
         "nombre": "SUSTENTABLE",
         "descripcion": "Ahorro energético, conservación de suelos, tratamiento de aguas sanitarias, cubiertas verdes, materiales reciclables, domótica."
@@ -29,9 +49,9 @@
       }
     ],
     "estadisticas": {
-      "años_trayectoria": "5",
-      "m2_construidos": "4.500",
-      "historias_de_exito": "250"
+      "años_trayectoria": "0",
+      "m2_construidos": "0",
+      "historias_de_exito": "0"
     }
   },
   "nosotros": {
@@ -253,7 +273,7 @@
     },
     {
       "categoria": "FINANCIACIÓN",
-      "pregunta": "¿Cuáles son las opciones disponibles?",
+      "pregunta": "¿Cuáles son las opciones de financiación?",
       "respuesta": "Disponemos como opciones de financiación: • Pagos durante el proceso de construcción entre 90 y 120 días. • Créditos personales o hipotecarios a través de Banco Hipotecario → ver más aquí • Opciones de Tokenizacion → ver más aquí"
     },
     {
@@ -290,6 +310,7 @@
   "tipologias": [
     {
       "url": "https://wellmod.odoo.com/en/w20-suite",
+      "link": "https://wellmod.odoo.com/en/w20-suite",
       "nombre": "W 20 Suite",
       "descripcion": "Monoambiente de diseño compacto, funcional y listo para disfrutar.",
       "precio": "U$D 31.200 + IVA",
@@ -339,6 +360,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w26-suite",
+      "link": "https://wellmod.odoo.com/en/w26-suite",
       "nombre": "W 26 Suite",
       "descripcion": "Monoambiente Premium perfecto para alquiler turístico – Línea Black Edition",
       "precio": "U$D 35.100 + IVA",
@@ -389,6 +411,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w30-2",
+      "link": "https://wellmod.odoo.com/en/w30-2",
       "nombre": "W 30",
       "descripcion": "Diseño contemporáneo y práctico, optimizado para disfrutar cada m2 al máximo",
       "precio": "U$D 43.500 + IVA",
@@ -427,6 +450,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w30-1",
+      "link": "https://wellmod.odoo.com/en/w30-1",
       "nombre": "W 30 S",
       "descripcion": "Diseño inteligente, moderno y funcional. Creado para aprovechar cada m2.",
       "precio": "U$D 58.900 + IVA",
@@ -463,6 +487,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w40",
+      "link": "https://wellmod.odoo.com/en/w40",
       "nombre": "W 40",
       "descripcion": "Diseño, funcionalidad y confort en 40 m² cubiertos. Con 1 dormitorio, baño completo y estar-comedor-cocina integrados, este modelo optimiza cada metro cuadrado para brindarte un espacio cómodo, moderno y listo para disfrutar.",
       "precio": "U$D 53.900 + IVA",
@@ -517,6 +542,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w52",
+      "link": "https://wellmod.odoo.com/en/w52",
       "nombre": "W 52",
       "descripcion": "Armonía perfecta entre diseño y naturaleza en esta casa modular de ensueño.",
       "precio": "U$D 62.400 + IVA",
@@ -567,6 +593,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w60",
+      "link": "https://wellmod.odoo.com/en/w60",
       "nombre": "W 60 A",
       "descripcion": "Diseño familiar, amplio y confortable en 60 m² cubiertos.",
       "precio": "U$D 87.580 + IVA",
@@ -616,6 +643,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w63",
+      "link": "https://wellmod.odoo.com/en/w63",
       "nombre": "W 63",
       "descripcion": "Descubre la elegancia y funcionalidad de esta casa modular de diseño contemporáneo, perfectamente integrada en un entorno natural. Con un total de 43 m² cubiertos y una espléndida galería exterior de 20 m², ofrece el equilibrio ideal entre un interior acogedor y la vida al aire libre.",
       "precio": "U$D 80.600 + IVA",
@@ -666,6 +694,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w66",
+      "link": "https://wellmod.odoo.com/en/w66",
       "nombre": "W 66",
       "descripcion": "Pensado para la vida diaria o vacaciones disfrutando el entorno. Destaca su diseño moderno con pasillos vidriados vinculantes, que conectan los espacios aportando luz natural, circulación fluida y mayor sensación de amplitud.",
       "precio": "U$D 99.990 + IVA",
@@ -715,6 +744,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w80",
+      "link": "https://wellmod.odoo.com/en/w80",
       "nombre": "W 80 A",
       "descripcion": "• Estructura: Metálica de vigas y columnas de acero - chapa 3,20 mm de espesor.",
       "precio": "U$D 113.500 + IVA",
@@ -765,6 +795,7 @@
     },
     {
       "url": "https://wellmod.odoo.com/en/w-oficinas",
+      "link": "https://wellmod.odoo.com/en/w-oficinas",
       "nombre": "W Oficina",
       "descripcion": "Espacios versátiles y eficientes desde 20m2 cubiertos. Pensados para usos de oficina.",
       "precio": "",
@@ -795,13 +826,14 @@
       "url": "https://wellmod.odoo.com/obras-viviendas",
       "proyectos": [
         {
-          "url": "https://wellmod.odoo.com/casa-ja-1",
+          "url": "https://wellmod.odoo.com/casa-ja",
           "nombre": "CASA JA",
-          "descripcion": "",
+          "descripcion": "Ubicada en el pintoresco entorno de Potrero de Garay, Córdoba, esta vanguardista casa modular de dos plantas es el refugio perfecto que combina arquitectura moderna, sustentabilidad y una conexión inigualable con la naturaleza.",
           "categoria": "Viviendas",
           "ubicacion": "Potrero de Garay, Córdoba",
-          "tamano": "",
-          "anio": ""
+          "tamano": "240m²",
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-ja"
         },
         {
           "url": "",
@@ -810,7 +842,8 @@
           "categoria": "Viviendas",
           "ubicacion": "San Javier, Córdoba",
           "tamano": "",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/obras-viviendas"
         },
         {
           "url": "https://wellmod.odoo.com/casa-mr",
@@ -819,7 +852,8 @@
           "categoria": "Viviendas",
           "ubicacion": "San Clemente, Córdoba",
           "tamano": "170m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-mr"
         },
         {
           "url": "https://wellmod.odoo.com/casa-lj",
@@ -828,7 +862,8 @@
           "categoria": "Viviendas",
           "ubicacion": "San Carlos de Bariloche, Rio Negro",
           "tamano": "66m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-lj"
         },
         {
           "url": "https://wellmod.odoo.com/casa-my",
@@ -837,7 +872,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Base Los Gigantes, Córdoba",
           "tamano": "80m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-my"
         },
         {
           "url": "https://wellmod.odoo.com/casa-jlf",
@@ -846,7 +882,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Potrerillo de Larreta, Córdoba",
           "tamano": "80m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-jlf"
         },
         {
           "url": "https://wellmod.odoo.com/casa-ad",
@@ -855,7 +892,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Potrero de Garay, Córdoba",
           "tamano": "230m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-ad"
         },
         {
           "url": "https://wellmod.odoo.com/casa-nj",
@@ -864,7 +902,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Golpe de agua, Calamuchita, Córdoba",
           "tamano": "26m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-nj"
         },
         {
           "url": "https://wellmod.odoo.com/casa-im",
@@ -873,7 +912,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Molvento, Calamuchita, Córdoba",
           "tamano": "182m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-im"
         },
         {
           "url": "https://wellmod.odoo.com/casa-jv",
@@ -882,7 +922,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Villa Allende, Córdoba",
           "tamano": "40m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-jv"
         },
         {
           "url": "https://wellmod.odoo.com/casa-gb",
@@ -891,7 +932,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Rafaela, Santa Fe",
           "tamano": "120m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-gb"
         },
         {
           "url": "https://wellmod.odoo.com/casa-ls",
@@ -900,7 +942,8 @@
           "categoria": "Viviendas",
           "ubicacion": "Agua de Oro, Córdoba",
           "tamano": "66m²",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/casa-ls"
         }
       ]
     },
@@ -916,7 +959,8 @@
           "categoria": "Turismo",
           "ubicacion": "Los Reartes, Córdoba",
           "tamano": "200m²",
-          "anio": "2022"
+          "anio": "2022",
+          "link": "https://wellmod.odoo.com/pasocalmo"
         },
         {
           "url": "https://wellmod.odoo.com/lasalpassuites",
@@ -925,7 +969,8 @@
           "categoria": "Turismo",
           "ubicacion": "Potrero de Garay, Córdoba",
           "tamano": "80m²",
-          "anio": "2022"
+          "anio": "2022",
+          "link": "https://wellmod.odoo.com/lasalpassuites"
         },
         {
           "url": "https://wellmod.odoo.com/laramadita",
@@ -934,16 +979,18 @@
           "categoria": "Turismo",
           "ubicacion": "Fiambalá, Catamarca",
           "tamano": "52m²",
-          "anio": "2023"
+          "anio": "2023",
+          "link": "https://wellmod.odoo.com/laramadita"
         },
         {
           "url": "https://wellmod.odoo.com/florentina",
           "nombre": "Florentina Bariloche",
-          "descripcion": "Un refugio donde el Nahuel Huapi se convierte en el escenario perfecto para cada amanecer. Una experiencia única en Bariloche: despertar cada día frente a vistas que enamoran, rodeada de naturaleza y envuelta en confort.",
+          "descripcion": "Suites del Lago: Donde la naturaleza encuentra su pausa",
           "categoria": "Turismo",
           "ubicacion": "San Carlos de Bariloche, Río Negro",
-          "tamano": "",
-          "anio": ""
+          "tamano": "66m²",
+          "anio": "2025",
+          "link": "https://wellmod.odoo.com/florentina"
         },
         {
           "url": "",
@@ -952,7 +999,8 @@
           "categoria": "Turismo",
           "ubicacion": "Atos Pampa, Calamuchita, Córdoba",
           "tamano": "",
-          "anio": ""
+          "anio": "",
+          "link": "https://wellmod.odoo.com/obras-turismo"
         }
       ]
     },
@@ -967,8 +1015,9 @@
           "descripcion": "Obra corporativa de oficinas. Solución rápida funcional y de alta calidad en entorno aeroportuario.",
           "categoria": "Oficinas",
           "ubicacion": "San Fernando, Buenos Aires",
-          "tamano": "",
-          "anio": ""
+          "tamano": "100m²",
+          "anio": "2024",
+          "link": "https://wellmod.odoo.com/aa-2000"
         },
         {
           "url": "https://wellmod.odoo.com/club-talleres",
@@ -976,8 +1025,9 @@
           "descripcion": "Gracias a nuestro sistema de arquitectura modular transportable, el club cuenta hoy con espacios modernos y de alta calidad para el desarrollo de sus actividades institucionales y operativas.",
           "categoria": "Oficinas",
           "ubicacion": "Córdoba Capital",
-          "tamano": "",
-          "anio": ""
+          "tamano": "200m²",
+          "anio": "2024",
+          "link": "https://wellmod.odoo.com/club-talleres"
         },
         {
           "url": "https://wellmod.odoo.com/fertimaq",
@@ -985,8 +1035,9 @@
           "descripcion": "Una solución moderna y eficiente que combina rapidez constructiva, funcionalidad y alta calidad, adaptada a las necesidades de la empresa.",
           "categoria": "Oficinas",
           "ubicacion": "Oncativo, Córdoba",
-          "tamano": "",
-          "anio": ""
+          "tamano": "20m²",
+          "anio": "2020",
+          "link": "https://wellmod.odoo.com/fertimaq"
         },
         {
           "url": "https://wellmod.odoo.com/tn-platex",
@@ -994,8 +1045,9 @@
           "descripcion": "En la planta de hilados se implementó una solución de oficinas modulares dentro de fábrica, agregando espacios de trabajo sin interrumpir la producción. Logramos una instalación rápida, eficiente y de alta calidad adaptada al entorno industrial.",
           "categoria": "Oficinas",
           "ubicacion": "La Rioja",
-          "tamano": "",
-          "anio": ""
+          "tamano": "100m²",
+          "anio": "2022",
+          "link": "https://wellmod.odoo.com/tn-platex"
         }
       ]
     },
@@ -1011,7 +1063,8 @@
           "categoria": "Oil and Gas",
           "ubicacion": "Neuquén",
           "tamano": "920m²",
-          "anio": ""
+          "anio": "2025",
+          "link": "https://wellmod.odoo.com/vista-energy"
         }
       ]
     }

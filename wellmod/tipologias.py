@@ -45,6 +45,7 @@ def scrape_tipologia_detail(url: str) -> dict:
 
     result = {
         "url": url,
+        "link": url,  # link accesible para compartir con el usuario
         "nombre": "",
         "descripcion": "",
         "precio": "",

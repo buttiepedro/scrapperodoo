@@ -259,22 +259,30 @@ def scrape_obras_catalog() -> list[dict]:
             "proyectos": [],
         }
 
+        category_url = obra_group["url"]
+
         for project in projects:
             if project["url"]:
                 try:
                     detail = scrape_obra_detail(project["url"])
+                    link = project["url"]  # ficha propia accesible
                 except requests.RequestException as exc:
-                    # La ficha de detalle falló (p.ej. 404): conservamos los datos de la tarjeta
+                    # La ficha de detalle falló (p.ej. 404): conservamos los datos de la
+                    # tarjeta y compartimos la página de la categoría (siempre accesible).
                     print(f"    ⚠ No se pudo abrir {project['url']}: {exc}. Se usan datos de la tarjeta.")
                     detail = dict(_EMPTY_OBRA)
+                    link = category_url
             else:
-                # Proyecto sin ficha ("PRÓXIMAMENTE"): solo datos de la tarjeta
+                # Proyecto sin ficha ("PRÓXIMAMENTE"): solo datos de la tarjeta.
                 detail = dict(_EMPTY_OBRA)
+                link = category_url
             # Merge detail with project, but preserve project values (from card metadata) when they exist
             merged = {**detail}
             for key in project:
                 if project[key]:  # Keep card metadata if it has a value
                     merged[key] = project[key]
+            # link accesible para compartir con el usuario (ficha propia o categoría)
+            merged["link"] = link
             obra_group["proyectos"].append(merged)
             sufijo = "" if project["url"] else "  (sin ficha — PRÓXIMAMENTE)"
             print(f"    ✓ {merged.get('nombre') or detail.get('nombre')}{sufijo}")
