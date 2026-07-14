@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-01T09:00:20.162522",
+    "scraped_at": "2026-07-14T09:51:07.299209",
     "source": "https://wellmod.odoo.com",
     "version": "1.0"
   },
   "empresa": {
-    "descripcion": "Brindar soluciones modulares, en tiempos record, fomentando la sustentabilidad y minimizando los desperdicios de la construcción.",
+    "descripcion": "Cambiar los paradigmas de la construcción y lograr ser los lideres en soluciones modulares a lo largo del país, con un producto fabricado 100% en una planta industrial..",
     "pilares": [
       {
         "nombre": "SIMPLE",
@@ -410,8 +410,8 @@
       ]
     },
     {
-      "url": "https://wellmod.odoo.com/en/w30-2",
-      "link": "https://wellmod.odoo.com/en/w30-2",
+      "url": "https://wellmod.odoo.com/en/w30",
+      "link": "https://wellmod.odoo.com/en/w30",
       "nombre": "W 30",
       "descripcion": "Diseño contemporáneo y práctico, optimizado para disfrutar cada m2 al máximo",
       "precio": "U$D 43.500 + IVA",
@@ -449,8 +449,8 @@
       "opcionales_premium": []
     },
     {
-      "url": "https://wellmod.odoo.com/en/w30-1",
-      "link": "https://wellmod.odoo.com/en/w30-1",
+      "url": "https://wellmod.odoo.com/en/w30-s",
+      "link": "https://wellmod.odoo.com/en/w30-s",
       "nombre": "W 30 S",
       "descripcion": "Diseño inteligente, moderno y funcional. Creado para aprovechar cada m2.",
       "precio": "U$D 58.900 + IVA",

@@ -5,9 +5,11 @@ import os
 BASE_URL = "https://wellmod.odoo.com"
 OUTPUT_FILE = os.getenv("WELLMOD_OUTPUT_FILE", "wellmod_knowledge_base.json")
 DELAY = float(os.getenv("WELLMOD_REQUEST_DELAY", "1.5"))  # segundos entre requests
+# El CRM expone su backend bajo /api (la ruta sin ese prefijo cae en el frontend
+# estático y devuelve 405).
 KNOWLEDGE_IMPORT_URL = os.getenv(
     "WELLMOD_KNOWLEDGE_IMPORT_URL",
-    "https://crm2-wellmod.plataformabit.com/knowledge/import",
+    "https://crm2-wellmod.plataformabit.com/api/knowledge/import",
 )
 KNOWLEDGE_IMPORT_TOKEN = os.getenv("WELLMOD_KNOWLEDGE_IMPORT_TOKEN", "bitautomatizacion")
 KNOWLEDGE_IMPORT_TIMEOUT = float(os.getenv("WELLMOD_KNOWLEDGE_IMPORT_TIMEOUT", "30"))
@@ -26,8 +28,8 @@ HEADERS = {
 TIPOLOGIAS_FALLBACK = [
     "/en/w20-suite",
     "/en/w26-suite",
-    "/en/w30-2",
-    "/en/w30-1",
+    "/en/w30",
+    "/en/w30-s",
     "/en/w40",
     "/en/w52",
     "/en/w60",

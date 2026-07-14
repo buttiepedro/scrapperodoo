@@ -118,8 +118,10 @@ def run() -> None:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
+    # El envío al CRM no debe tumbar la corrida: el JSON ya está guardado y el
+    # entrypoint corre con `set -e` (un error acá impediría arrancar la API).
     print("  → Enviando JSON a CRM...")
-    _send_knowledge_base(OUTPUT_FILE)
+    _safe("envío al CRM", lambda: _send_knowledge_base(OUTPUT_FILE), None)
 
     print(f"\n{'=' * 60}")
     print(f"  ✓ JSON guardado en: {OUTPUT_FILE}")
