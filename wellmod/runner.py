@@ -3,7 +3,15 @@
 import json
 from datetime import datetime
 
-from .config import BASE_URL, OUTPUT_FILE
+import requests
+
+from .config import (
+    BASE_URL,
+    KNOWLEDGE_IMPORT_TIMEOUT,
+    KNOWLEDGE_IMPORT_TOKEN,
+    KNOWLEDGE_IMPORT_URL,
+    OUTPUT_FILE,
+)
 from .faqs import scrape_faqs
 from .home import scrape_home
 from .nosotros import scrape_nosotros
@@ -23,6 +31,30 @@ def _safe(label: str, fn, default):
     except Exception as exc:  # noqa: BLE001 - robustez: una sección no debe tumbar el resto
         print(f"  ⚠ Falló la sección '{label}': {exc}")
         return default
+
+
+def _send_knowledge_base(path: str) -> None:
+    with open(path, "rb") as f:
+        resp = requests.post(
+            KNOWLEDGE_IMPORT_URL,
+            headers={
+                "X-Knowledge-Token": KNOWLEDGE_IMPORT_TOKEN,
+                "Content-Type": "application/json",
+            },
+            data=f,
+            timeout=KNOWLEDGE_IMPORT_TIMEOUT,
+        )
+
+    if resp.status_code >= 400:
+        raise RuntimeError(
+            "Error al importar conocimiento "
+            f"(status={resp.status_code}): {resp.text[:500]}"
+        )
+
+    print(
+        "  ✓ JSON enviado a knowledge/import "
+        f"(status={resp.status_code})"
+    )
 
 
 def run() -> None:
@@ -85,6 +117,9 @@ def run() -> None:
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print("  → Enviando JSON a CRM...")
+    _send_knowledge_base(OUTPUT_FILE)
 
     print(f"\n{'=' * 60}")
     print(f"  ✓ JSON guardado en: {OUTPUT_FILE}")

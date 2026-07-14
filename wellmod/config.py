@@ -5,6 +5,12 @@ import os
 BASE_URL = "https://wellmod.odoo.com"
 OUTPUT_FILE = os.getenv("WELLMOD_OUTPUT_FILE", "wellmod_knowledge_base.json")
 DELAY = float(os.getenv("WELLMOD_REQUEST_DELAY", "1.5"))  # segundos entre requests
+KNOWLEDGE_IMPORT_URL = os.getenv(
+    "WELLMOD_KNOWLEDGE_IMPORT_URL",
+    "https://crm2-wellmod.plataformabit.com/knowledge/import",
+)
+KNOWLEDGE_IMPORT_TOKEN = os.getenv("WELLMOD_KNOWLEDGE_IMPORT_TOKEN", "bitautomatizacion")
+KNOWLEDGE_IMPORT_TIMEOUT = float(os.getenv("WELLMOD_KNOWLEDGE_IMPORT_TIMEOUT", "30"))
 
 HEADERS = {
     "User-Agent": (
