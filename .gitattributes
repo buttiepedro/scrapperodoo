@@ -1,0 +1,3 @@
+# Los scripts de shell deben conservar LF: se ejecutan dentro del contenedor
+# Linux y con CRLF se rompe el shebang (/bin/sh^M: bad interpreter).
+*.sh text eol=lf
