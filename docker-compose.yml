@@ -5,7 +5,11 @@ services:
     restart: unless-stopped
     env_file:
       - .env
-    ports:
-      - "${WELLMOD_API_PORT:-8080}:${WELLMOD_API_PORT:-8080}"
+    # API HTTP deshabilitada (SERVE_API=false): no publicamos ningún puerto,
+    # así el contenedor no reserva el 8080 del host (Docker lo bindea aunque
+    # nada escuche adentro). Para exponer la API, poné SERVE_API=true y
+    # descomentá el bloque `ports`:
+    # ports:
+    #   - "${WELLMOD_API_PORT:-8080}:${WELLMOD_API_PORT:-8080}"
     volumes:
       - ./data:/app/data
