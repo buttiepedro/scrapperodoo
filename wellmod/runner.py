@@ -7,6 +7,7 @@ import requests
 
 from .config import (
     BASE_URL,
+    HEADERS,
     KNOWLEDGE_IMPORT_TIMEOUT,
     KNOWLEDGE_IMPORT_TOKEN,
     KNOWLEDGE_IMPORT_URL,
@@ -38,6 +39,9 @@ def _send_knowledge_base(path: str) -> None:
         resp = requests.post(
             KNOWLEDGE_IMPORT_URL,
             headers={
+                "User-Agent": HEADERS["User-Agent"],
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": HEADERS["Accept-Language"],
                 "X-Knowledge-Token": KNOWLEDGE_IMPORT_TOKEN,
                 "Content-Type": "application/json",
             },
