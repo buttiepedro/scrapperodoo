@@ -3,6 +3,7 @@
 import os
 
 BASE_URL = "https://wellmod.odoo.com"
+TIPOLOGIAS_CATALOG_PATH = "/catalogo"
 OUTPUT_FILE = os.getenv("WELLMOD_OUTPUT_FILE", "wellmod_knowledge_base.json")
 DELAY = float(os.getenv("WELLMOD_REQUEST_DELAY", "1.5"))  # segundos entre requests
 # El CRM expone su backend bajo /api (la ruta sin ese prefijo cae en el frontend

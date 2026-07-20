@@ -4,9 +4,12 @@ import re
 
 import requests
 
-from .config import BASE_URL, TIPOLOGIAS_FALLBACK
+from .config import BASE_URL, TIPOLOGIAS_CATALOG_PATH, TIPOLOGIAS_FALLBACK
 from .fetch import get_soup
 from .text import clean, extract_price, extract_whatsapp, get_lines, strip_noise
+
+
+_TIPOLOGIA_HREF_RE = re.compile(r"^(?:https?://[^/]+)?/(?:en/)?w[\w-]*", re.I)
 
 
 def scrape_tipologias_catalog() -> list[str]:
@@ -18,17 +21,24 @@ def scrape_tipologias_catalog() -> list[str]:
     seen = set()
 
     try:
-        soup = get_soup("/tipologias")
+        soup = get_soup(TIPOLOGIAS_CATALOG_PATH)
     except requests.RequestException as exc:
-        print(f"  ⚠ No se pudo abrir el catálogo (/tipologias): {exc}. Usando URLs estáticas de fallback.")
+        print(
+            f"  ⚠ No se pudo abrir el catálogo ({TIPOLOGIAS_CATALOG_PATH}): {exc}. "
+            "Usando URLs estáticas de fallback."
+        )
         soup = None
 
     if soup is not None:
         for a in soup.find_all("a", href=True):
             href = a["href"]
-            if "/en/w" in href and href not in seen:
-                seen.add(href)
-                urls.append(href if href.startswith("http") else BASE_URL + href)
+            if not _TIPOLOGIA_HREF_RE.match(href):
+                continue
+            full_url = href if href.startswith("http") else BASE_URL + href
+            if full_url in seen:
+                continue
+            seen.add(full_url)
+            urls.append(full_url)
 
     if not urls:
         print("  ⚠ No se encontraron links dinámicamente. Usando URLs estáticas de fallback.")
