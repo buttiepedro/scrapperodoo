@@ -1,8 +1,8 @@
-"""Configuración y constantes del scraper de wellmod.odoo.com."""
+"""Configuración y constantes del scraper de www.wellmod.com.ar."""
 
 import os
 
-BASE_URL = "https://wellmod.odoo.com"
+BASE_URL = "https://www.wellmod.com.ar"
 TIPOLOGIAS_CATALOG_PATH = "/catalogo"
 OUTPUT_FILE = os.getenv("WELLMOD_OUTPUT_FILE", "wellmod_knowledge_base.json")
 DELAY = float(os.getenv("WELLMOD_REQUEST_DELAY", "1.5"))  # segundos entre requests
